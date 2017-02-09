@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>0207-2</title>
+<script>
+window.onload=function(){
+	 var btn=document.getElementsByTagName("input")[0];
+	 btn.addEventListener("click",function(event){
+		 var event=event||window.event;
+		 btn.value=event.type;
+		 });
+	}
+</script>
+</head>
+
+<body>
+<input type="button" value="event对象">
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0; padding:0;}
+body{ background-color:#e9e9e9;}
+.hover{ background-color:#FFF;}
+.nomal{ background-color:#999;}
+
+
+.main{ width:254px; height:120px; border:solid #666 1px; background-color:#999;}
+ul{ list-style:none;}
+.tit li{ display:inline-block; width:50px; height:20px; background-color:#000;}
+

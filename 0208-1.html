@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>全局变量</title>
+<script>
+window.onload=function(){
+var a=1;
+function b(){
+	a++;
+	alert(a);
+	
+	}
+	function c(){};
+	alert(a);
+c.prototype=new b(a=4);
+
+c();	
+alert(a);
+
+
+	
+}
+</script>
+</head>
+
+<body>
+</body>
+</html>
